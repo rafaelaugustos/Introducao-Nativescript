@@ -40,7 +40,7 @@ E o resultado é:
   
 
 
-Sendo executado com **V8 **
+Sendo executado com **V8**
 ```
 let time = new android.text.format.Time()
 time.set(1, 0, 2015)
@@ -159,3 +159,8 @@ Depois que já instalou o `NativeScript`
 `tns platform add android && tns run android --emulator`
 
 <img src="http://developer.telerik.com/wp-content/uploads/2015/09/TNSAndroid.jpg">
+
+
+> SURPREENDENTE, NÃO?
+
+<img src="https://i.imgur.com/s9bPVaK.gif">
