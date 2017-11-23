@@ -5,7 +5,7 @@ O NativeScript é como você cria aplicativos iOS e Android multi-plataforma, na
 
 # O que não é **NativeScript**?
 - Não é Cordova (Webview, DOM)
-- Não é um copulador Cross
+- Não é um compilador Cross
 
 # Exemplo Android
 
