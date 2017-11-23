@@ -189,7 +189,7 @@ application.start()
 
 # Pages
 - Estruturas XML
-- Elementos (e.g . <page>, <Label>)
+- Elementos (e.g. `<page>`, `<Label>`)
   
 ```
 <Page>
