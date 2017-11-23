@@ -34,7 +34,7 @@ E o resultado é:
 
 **NativeScript e JS VMs**
 
-- NativeScript executa JavaScript com o JavaScript VM
+- NativeScript executa JavaScript com o JavaScript VM (Virtual Machine)
   - JavaScriptCore no IOS
   - V8 no Android 
   
@@ -160,7 +160,74 @@ Depois que já instalou o `NativeScript`
 
 <img src="http://developer.telerik.com/wp-content/uploads/2015/09/TNSAndroid.jpg">
 
+# Listagem de arquivos
+- Hello-World (Pasta do seu projeto)
+  - app
+    - app.css <-- Estilo do app
+    - app.js  <-- Ponto de inicialização
+    - main-page.css
+    - main-page.xml
+    - main-page.js
+    - node_modules <-- Modulos Node
+      - ...
+    - App_Resources <-- Icones, SplashScreen, Arquivos de configuração e etc
+      - ...
+    - Tns_Modules <-- Modulos do NativeScript
+      - ...
+  - platforms
+    - android
+    - ios
+    
+    
+# App.js
+```
+const application = require('application')
+application.mainModule = 'main-page'
+application.start()
+```
 
+# Pages
+- Estruturas XML
+- Elementos (e.g . <page>, <Label>)
+  
+```
+<Page>
+  <Label text="Olá Pessoal ;)" />
+</Page>
+```
+
+# Data Binding
+```
+<Page loaded="load">
+    <Label text="Olá Pessoal ;)" />
+</Page>
+
+exports.load = (args) => {
+  args.object.bindingContext = {message: "Hello World!"}
+} 
+```
+
+# Data Binding Melhorado
+```
+const observableModule = require('data/observable')
+
+exports.load = (args) => {
+  let data = new observableModule.Observable()
+  data.set("message", "Hello World")
+  args.object.bindingContext = data
+}
+```
+# CSS
+```
+Label{
+  color: red;
+  font-size: 20;
+  width: 200;
+  margin: 20;
+}
+
+
+```
 > SURPREENDENTE, NÃO?
 
 <img src="https://i.imgur.com/s9bPVaK.gif">
