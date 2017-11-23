@@ -148,15 +148,15 @@ console.log(device.version)
 # Iniciando um novo Projeto
 
 Depois que já instalou o `NativeScript`
-`tns create hello-world && cd hello-world`
+- `tns create hello-world && cd hello-world`
 
 # Executando no iOS
-`tns platform add ios && tns run ios --emulator`
+- `tns platform add ios && tns run ios --emulator`
 
 <img src="http://developer.telerik.com/wp-content/uploads/2015/09/TNSiOS.jpg">
 
 # Executando no Android
-`tns platform add android && tns run android --emulator`
+- `tns platform add android && tns run android --emulator`
 
 <img src="http://developer.telerik.com/wp-content/uploads/2015/09/TNSAndroid.jpg">
 
