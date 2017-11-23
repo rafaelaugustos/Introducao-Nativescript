@@ -3,6 +3,8 @@
 # O que é **NativeScript**?
 
 # O que não é **NativeScript**?
+- Não é Cordova (Webview, DOM)
+- Não é um copulador Cross
 
 # Exemplo Android
 
