@@ -161,6 +161,7 @@ Depois que já instalou o `NativeScript`
 <img src="http://developer.telerik.com/wp-content/uploads/2015/09/TNSAndroid.jpg">
 
 # Listagem de arquivos
+```
 - Hello-World (Pasta do seu projeto)
   - app
     - app.css <-- Estilo do app
@@ -177,7 +178,7 @@ Depois que já instalou o `NativeScript`
   - platforms
     - android
     - ios
-    
+```
     
 # App.js
 ```
@@ -217,6 +218,9 @@ exports.load = (args) => {
   args.object.bindingContext = data
 }
 ```
+
+<img src="https://m.popkey.co/ea8d96/ZDAZ6_s-200x150.gif">
+
 # CSS
 ```
 Label{
