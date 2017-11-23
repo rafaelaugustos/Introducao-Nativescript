@@ -1,6 +1,7 @@
 # Introdução ao NativeScript
 
 # O que é **NativeScript**?
+O NativeScript é como você cria aplicativos iOS e Android multi-plataforma, nativos sem visualizações da web. Use Angular, TypeScript ou JavaScript puro para obter verdadeiramente UI nativa e desempenho enquanto compartilha habilidades e código com a web. Obtenha 100% de acesso a API nativas via JavaScript e reutilize pacotes de NPM, CocoaPods e Gradle.
 
 # O que não é **NativeScript**?
 - Não é Cordova (Webview, DOM)
